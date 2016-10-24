@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"[
+        <!ENTITY parameters_parameters SYSTEM "parameters.xml">
+        <!ENTITY classes SYSTEM "classes.xml">
+        ]>
+<suite name = "Example Automation Session 02" verbose="3">
+        &parameters_parameters;
+        <test name="Core Integration test">
+            <groups>
+                <run>
+                    <include name="test1"/>
+                    <exclude name="test2"/>
+                </run>
+            </groups>
+            &classes;
+        </test>
+</suite>

@@ -1,0 +1,8 @@
+<classes>
+    <class name="exampleclass.ExampleClassTest">
+        <methods>
+            <include name="testSum"/>
+            <include name="testDivide"/>
+        </methods>
+    </class>
+</classes>

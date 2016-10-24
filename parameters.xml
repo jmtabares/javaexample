@@ -1,0 +1,7 @@
+<parameter name='termA' value="3"/>
+<parameter name='termB' value="4"/>
+<parameter name='termC' value="2"/>
+<parameter name='termD' value="10"/>
+<parameter name='zero' value="0"/>
+<parameter name='resultSum1' value="7"/>
+<parameter name='resultDivide' value="2"/>
