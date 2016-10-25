@@ -1,8 +1,5 @@
 <classes>
-    <class name="exampleclass.ExampleClassTest">
-        <methods>
-            <include name="testSum"/>
-            <include name="testDivide"/>
-        </methods>
-    </class>
+    <class name="exampleclass.ExampleClassTest"/>
+    <class name="SeleniumTest"/>
+    <class name="com.example.base.TestBase"/>
 </classes>

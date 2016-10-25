@@ -5,3 +5,7 @@
 <parameter name='zero' value="0"/>
 <parameter name='resultSum1' value="7"/>
 <parameter name='resultDivide' value="2"/>
+<parameter name="username" value="willdom.kt"/>
+<parameter name="password" value="pswd1212"/>
+<parameter name="appURL" value="https://www.google.com/"/>
+<parameter name="browserType" value="1"/>
