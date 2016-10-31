@@ -1,7 +1,9 @@
+package com.example.test;
+
 import com.example.base.TestBase;
-import com.example.pages.GoogleLoginPage;
-import com.example.pages.GoogleMailPage;
-import com.example.pages.GooglePage;
+import com.example.pages.pom.GoogleLoginPage;
+import com.example.pages.pom.GoogleMailPage;
+import com.example.pages.pom.GooglePage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -9,7 +11,7 @@ import org.testng.annotations.*;
 /**
  * Created by jairtabares on 24/10/16.
  */
-public class SeleniumTest extends TestBase {
+public class SeleniumPOMTest extends TestBase {
 
     private WebDriver driver;
     @BeforeMethod(alwaysRun=true)

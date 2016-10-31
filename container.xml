@@ -3,13 +3,14 @@
         <!ENTITY parameters_parameters SYSTEM "parameters.xml">
         <!ENTITY classes SYSTEM "classes.xml">
         ]>
-<suite name="Automation Test Execution" verbose="3">
+<suite name="Automation Test Execution" verbose="10">
     &parameters_parameters;
     <test name="Core Integration Tests" preserve-order="true">
         <groups>
             <run>
+                <include name="test3"/>
                 <include name="test2"/>
-                <exclude name="test1"/>
+                <include name="test1"/>
             </run>
         </groups>
         &classes;

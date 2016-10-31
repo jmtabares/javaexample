@@ -1,4 +1,4 @@
-package exampleclass;
+package com.example.test;
 
 /**
  * Created by jairtabares on 24/10/16.

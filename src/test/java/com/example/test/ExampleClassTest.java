@@ -1,10 +1,8 @@
-package exampleclass;
+package com.example.test;
 
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import static org.testng.Assert.*;
 
 /**
  * Created by jairtabares on 24/10/16.

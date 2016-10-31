@@ -8,4 +8,4 @@
 <parameter name="username" value="willdom.kt"/>
 <parameter name="password" value="pswd1212"/>
 <parameter name="appURL" value="https://www.google.com/"/>
-<parameter name="browserType" value="1"/>
+<parameter name="browserType" value="2"/>

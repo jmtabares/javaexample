@@ -1,5 +1,6 @@
 <classes>
-    <class name="exampleclass.ExampleClassTest"/>
-    <class name="SeleniumTest"/>
+    <class name="com.example.test.ExampleClassTest"/>
+    <class name="com.example.test.SeleniumPOMTest"/>
+    <class name ="com.example.test.SeleniumPFTest"/>
     <class name="com.example.base.TestBase"/>
 </classes>
